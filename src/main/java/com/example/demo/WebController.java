@@ -13,10 +13,15 @@ public class WebController {
         return UUID.randomUUID();
 
     }
-    
+
     @GetMapping("/hello")
     public String getHello() {
         return "hello";
+    }
+
+    @GetMapping("/hello2")
+    public String getHello() {
+        return "hello2";
     }
 
 }
